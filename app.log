@@ -1,0 +1,86 @@
+2023-01-27 08:53:39,268 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-27 08:53:39,369 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+2023-01-27 08:53:40,547 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2023-01-27 08:53:40,752 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2416 ms
+2023-01-27 08:53:40,752 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2023-01-27 08:53:40,861 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2023-01-27 08:53:40,877 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2023-01-27 08:53:40,877 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2023-01-27 08:53:40,877 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'requestLoggingFilter'; order=2147483647, resource=class path resource [com/example/disp/rest/Config.class]
+2023-01-27 08:53:40,877 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, requestLoggingFilter urls=[/*] order=2147483647
+2023-01-27 08:53:40,877 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Mapping servlets: dispatcherServlet urls=[/]
+2023-01-27 08:53:40,924 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [main] Filter 'requestLoggingFilter' configured for use
+2023-01-27 08:53:43,463 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 08:53:44,594 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-01-27 08:53:44,719 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 
+	c.e.d.r.DirectdispRestController:
+	{GET [/nspp/{kpl}/{name}]}: getMethodName(String,String)
+	{GET [/nspp/{kpl}]}: getMethodName(String)
+	{POST [/getns/]}: getns(String)
+2023-01-27 08:53:44,719 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-01-27 08:53:44,719 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 5 mappings in 'requestMappingHandlerMapping'
+2023-01-27 08:53:44,734 DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping [main] Detected 0 mappings in 'beanNameHandlerMapping'
+2023-01-27 08:53:44,750 TRACE org.springframework.web.servlet.function.support.RouterFunctionMapping [main] 0 RouterFunction(s) in 'routerFunctionMapping'
+2023-01-27 08:53:44,781 TRACE org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-01-27 08:53:44,781 TRACE org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-27 08:53:44,781 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-01-27 08:53:44,797 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-01-27 08:53:45,220 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2023-01-27 08:54:13,584 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-27 08:54:13,586 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Detected org.springframework.web.multipart.support.StandardServletMultipartResolver@43de88f3
+2023-01-27 08:54:13,586 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Detected org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@123e9094
+2023-01-27 08:54:13,586 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Detected org.springframework.web.servlet.theme.FixedThemeResolver@5671078e
+2023-01-27 08:54:13,588 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Detected DefaultRequestToViewNameTranslator
+2023-01-27 08:54:13,588 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Detected SessionFlashMapManager
+2023-01-27 08:54:13,588 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2023-01-27 08:54:13,588 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Completed initialization in 3 ms
+2023-01-27 08:54:13,611 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-10.35.0.2-9090-exec-1] Before request [POST /getns, client=10.35.0.2, headers=[user-agent:"PostmanRuntime/7.30.0", accept:"*/*", postman-token:"3220fa7f-8c81-4169-8234-0148d6b47362", host:"10.35.0.2:9090", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"398", Content-Type:"text/plain;charset=UTF-8"]]
+2023-01-27 08:54:13,617 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] POST "/getns", parameters={}, headers={content-type:[text/plain], user-agent:[PostmanRuntime/7.30.0], accept:[*/*], postman-token:[3220fa7f-8c81-4169-8234-0148d6b47362], host:[10.35.0.2:9090], accept-encoding:[gzip, deflate, br], connection:[keep-alive], content-length:[398]} in DispatcherServlet 'dispatcherServlet'
+2023-01-27 08:54:13,632 TRACE org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [http-nio-10.35.0.2-9090-exec-1] Mapped to HandlerExecutionChain with [ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]] and 5 interceptors
+2023-01-27 08:54:13,647 DEBUG org.springframework.web.servlet.resource.ResourceHttpRequestHandler [http-nio-10.35.0.2-9090-exec-1] Resource not found
+2023-01-27 08:54:13,647 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] No view rendering, null ModelAndView returned.
+2023-01-27 08:54:13,650 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Completed 404 NOT_FOUND, headers={Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]}
+2023-01-27 08:54:13,651 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [http-nio-10.35.0.2-9090-exec-1] After request [POST /getns, client=10.35.0.2, headers=[user-agent:"PostmanRuntime/7.30.0", accept:"*/*", postman-token:"3220fa7f-8c81-4169-8234-0148d6b47362", host:"10.35.0.2:9090", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"398", Content-Type:"text/plain;charset=UTF-8"]]
+2023-01-27 08:54:13,655 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] "ERROR" dispatch for POST "/error", parameters={}, headers={content-type:[text/plain], user-agent:[PostmanRuntime/7.30.0], accept:[*/*], postman-token:[3220fa7f-8c81-4169-8234-0148d6b47362], host:[10.35.0.2:9090], accept-encoding:[gzip, deflate, br], connection:[keep-alive], content-length:[398]} in DispatcherServlet 'dispatcherServlet'
+2023-01-27 08:54:13,656 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-10.35.0.2-9090-exec-1] 2 matching mappings: [{ [/error]}, { [/error], produces [text/html]}]
+2023-01-27 08:54:13,656 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [http-nio-10.35.0.2-9090-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-01-27 08:54:13,670 TRACE org.springframework.web.method.HandlerMethod [http-nio-10.35.0.2-9090-exec-1] Arguments: [org.apache.catalina.core.ApplicationHttpRequest@36c693bd]
+2023-01-27 08:54:13,686 DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-10.35.0.2-9090-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-01-27 08:54:13,687 TRACE org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor [http-nio-10.35.0.2-9090-exec-1] Writing [{timestamp=Fri Jan 27 08:54:13 MSK 2023, status=404, error=Not Found, path=/getns}]
+2023-01-27 08:54:13,738 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [http-nio-10.35.0.2-9090-exec-1] Applying default cacheSeconds=-1
+2023-01-27 08:54:13,739 TRACE org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] No view rendering, null ModelAndView returned.
+2023-01-27 08:54:13,740 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-10.35.0.2-9090-exec-1] Exiting from "ERROR" dispatch, status 404, headers={Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers], Content-Type:[application/json], Transfer-Encoding:[chunked], Date:[Fri, 27 Jan 2023 05:54:13 GMT], Keep-Alive:[timeout=60], Connection:[keep-alive]}
+2023-01-27 08:54:32,995 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-27 08:54:33,073 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2023-01-27 08:54:34,088 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2023-01-27 08:54:34,282 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2241 ms
+2023-01-27 08:54:34,297 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Added existing Servlet initializer bean 'dispatcherServletRegistration'; order=2147483647, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.class]
+2023-01-27 08:54:34,407 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'characterEncodingFilter'; order=-2147483648, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.class]
+2023-01-27 08:54:34,407 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'formContentFilter'; order=-9900, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class]
+2023-01-27 08:54:34,407 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'requestContextFilter'; order=-105, resource=class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]
+2023-01-27 08:54:34,407 TRACE org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Created Filter initializer for bean 'requestLoggingFilter'; order=2147483647, resource=class path resource [com/example/disp/rest/Config.class]
+2023-01-27 08:54:34,407 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, requestLoggingFilter urls=[/*] order=2147483647
+2023-01-27 08:54:34,407 DEBUG org.springframework.boot.web.servlet.ServletContextInitializerBeans [main] Mapping servlets: dispatcherServlet urls=[/]
+2023-01-27 08:54:34,454 DEBUG org.springframework.web.filter.CommonsRequestLoggingFilter [main] Filter 'requestLoggingFilter' configured for use
+2023-01-27 08:54:36,786 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-27 08:54:38,440 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-01-27 08:54:38,596 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 
+	c.e.d.r.DirectdispRestController:
+	{POST [/getns/]}: getns(String)
+	{GET [/nspp/{kpl}]}: getMethodName(String)
+	{GET [/nspp/{kpl}/{name}]}: getMethodName(String,String)
+2023-01-27 08:54:38,607 TRACE org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-01-27 08:54:38,613 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [main] 5 mappings in 'requestMappingHandlerMapping'
+2023-01-27 08:54:38,640 DEBUG org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping [main] Detected 0 mappings in 'beanNameHandlerMapping'
+2023-01-27 08:54:38,659 TRACE org.springframework.web.servlet.function.support.RouterFunctionMapping [main] 0 RouterFunction(s) in 'routerFunctionMapping'
+2023-01-27 08:54:38,688 TRACE org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped [/webjars/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2023-01-27 08:54:38,689 TRACE org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Mapped [/**] onto ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2023-01-27 08:54:38,689 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-01-27 08:54:38,709 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-01-27 08:54:39,261 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
